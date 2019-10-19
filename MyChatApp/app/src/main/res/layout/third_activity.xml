@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage">
+
+
+
+
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="match_parent"
+    android:layout_height="431dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="-7dp"
+    android:background="#0979DA" />
+
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="99dp"
+    android:layout_marginLeft="99dp"
+    android:layout_marginEnd="98dp"
+    android:layout_marginRight="98dp"
+    android:layout_marginBottom="319dp"
+    android:ems="10"
+    android:hint="User Name"
+    android:inputType="textPersonName"
+    android:textColorHint="#ffffff"
+    android:textColor="#FFFFFC" />
+
+<EditText
+    android:id="@+id/password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="97dp"
+    android:layout_marginLeft="97dp"
+    android:layout_marginEnd="100dp"
+    android:layout_marginRight="100dp"
+    android:layout_marginBottom="256dp"
+    android:ems="10"
+    android:hint="Password"
+    android:textColorHint="#ffffff"
+    android:inputType="textPersonName"
+    android:textColor="#ffffff" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="254dp"
+    android:layout_height="67dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="77dp"
+    android:layout_marginLeft="77dp"
+    android:layout_marginEnd="80dp"
+    android:layout_marginRight="80dp"
+    android:layout_marginBottom="155dp"
+    android:background="@drawable/round_shape"
+
+    android:text="LOGIN"
+    android:textColor="#FFFFFC"
+
+    />
+
+
+</RelativeLayout>
